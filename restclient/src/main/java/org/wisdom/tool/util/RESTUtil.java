@@ -746,7 +746,7 @@ public class RESTUtil
         }
 
         boolean isFailed = false;
-        if (isJson(oldBdy))
+        /*if (isJson(oldBdy))
         {
             if (!diff(oldBdy, newBdy, hist.getExcludedNodes()))
             {
@@ -759,7 +759,7 @@ public class RESTUtil
             {
                 isFailed = true;
             }
-        }
+        }*/
 
         if (isFailed)
         {
